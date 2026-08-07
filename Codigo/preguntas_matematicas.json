@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "tema": "Aritmética - Proporcionalidad",
+    "pregunta": "En una receta para 4 personas se necesitan 300 gramos de harina. Si se quiere preparar la misma receta para 10 personas, ¿cuántos gramos de harina se necesitan?",
+    "opciones": {
+      "A": "600 gramos",
+      "B": "750 gramos",
+      "C": "120 gramos",
+      "D": "900 gramos"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "Es una relación de proporcionalidad directa: 300 g / 4 personas = 75 g por persona. Para 10 personas: 75 x 10 = 750 gramos."
+  },
+  {
+    "id": 2,
+    "tema": "Geometría - Teorema de Pitágoras",
+    "pregunta": "Un triángulo rectángulo tiene catetos que miden 6 cm y 8 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "10 cm",
+      "B": "14 cm",
+      "C": "48 cm",
+      "D": "7 cm"
+    },
+    "respuesta_correcta": "A",
+    "explicacion": "Se aplica el Teorema de Pitágoras: h² = 6² + 8² = 36 + 64 = 100, entonces h = √100 = 10 cm."
+  },
+  {
+    "id": 3,
+    "tema": "Álgebra - Ecuaciones lineales",
+    "pregunta": "Si 3x + 5 = 20, ¿cuál es el valor de x?",
+    "opciones": {
+      "A": "3",
+      "B": "5",
+      "C": "8",
+      "D": "15"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "3x + 5 = 20 → 3x = 15 → x = 15/3 = 5."
+  },
+  {
+    "id": 4,
+    "tema": "Estadística - Media aritmética",
+    "pregunta": "Las calificaciones de un estudiante en 5 exámenes fueron: 3.5, 4.0, 3.8, 4.2 y 4.5. ¿Cuál es el promedio de estas calificaciones?",
+    "opciones": {
+      "A": "4.0",
+      "B": "3.9",
+      "C": "4.2",
+      "D": "20.0"
+    },
+    "respuesta_correcta": "A",
+    "explicacion": "Se suman todas las notas: 3.5+4.0+3.8+4.2+4.5 = 20.0, y se divide entre 5: 20.0/5 = 4.0."
+  },
+  {
+    "id": 5,
+    "tema": "Geometría - Área de figuras",
+    "pregunta": "Un terreno rectangular mide 12 metros de largo y 7 metros de ancho. ¿Cuál es su área?",
+    "opciones": {
+      "A": "19 m²",
+      "B": "38 m²",
+      "C": "84 m²",
+      "D": "168 m²"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "El área de un rectángulo es largo x ancho: 12 x 7 = 84 m²."
+  },
+  {
+    "id": 6,
+    "tema": "Aritmética - Porcentajes",
+    "pregunta": "Un producto cuesta $80.000 y tiene un descuento del 25%. ¿Cuál es el precio final después del descuento?",
+    "opciones": {
+      "A": "$20.000",
+      "B": "$55.000",
+      "C": "$60.000",
+      "D": "$65.000"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "El 25% de 80.000 es 20.000 (el descuento). El precio final es 80.000 - 20.000 = 60.000."
+  },
+  {
+    "id": 7,
+    "tema": "Funciones - Interpretación de gráficas",
+    "pregunta": "Una gráfica muestra que la temperatura de una ciudad aumenta constantemente entre las 6 a.m. y las 12 p.m., y luego disminuye constantemente hasta las 6 p.m. ¿En qué momento del día se registró la temperatura más alta?",
+    "opciones": {
+      "A": "A las 6 a.m.",
+      "B": "A las 9 a.m.",
+      "C": "A las 12 p.m.",
+      "D": "A las 6 p.m."
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "Si la temperatura sube hasta las 12 p.m. y después empieza a bajar, ese es el punto máximo de la gráfica."
+  },
+  {
+    "id": 8,
+    "tema": "Probabilidad",
+    "pregunta": "En una bolsa hay 4 bolas rojas, 3 azules y 3 verdes. Si se saca una bola al azar, ¿cuál es la probabilidad de que sea azul?",
+    "opciones": {
+      "A": "3/10",
+      "B": "4/10",
+      "C": "1/3",
+      "D": "3/7"
+    },
+    "respuesta_correcta": "A",
+    "explicacion": "Hay 10 bolas en total (4+3+3) y 3 son azules, entonces la probabilidad es 3/10."
+  },
+  {
+    "id": 9,
+    "tema": "Geometría - Perímetro",
+    "pregunta": "Un jardín tiene forma de cuadrado y su área es de 49 m². ¿Cuál es el perímetro del jardín?",
+    "opciones": {
+      "A": "7 m",
+      "B": "14 m",
+      "C": "28 m",
+      "D": "49 m"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "Si el área es 49 m², el lado mide √49 = 7 m. El perímetro de un cuadrado es 4 x lado: 4 x 7 = 28 m."
+  },
+  {
+    "id": 10,
+    "tema": "Álgebra - Sistemas de ecuaciones",
+    "pregunta": "Dos números suman 20 y su diferencia es 4. ¿Cuáles son esos números?",
+    "opciones": {
+      "A": "12 y 8",
+      "B": "10 y 10",
+      "C": "14 y 6",
+      "D": "16 y 4"
+    },
+    "respuesta_correcta": "A",
+    "explicacion": "x + y = 20 y x - y = 4. Sumando ambas ecuaciones: 2x = 24, x = 12. Entonces y = 20 - 12 = 8."
+  },
+  {
+    "id": 11,
+    "tema": "Aritmética - Regla de tres",
+    "pregunta": "Un carro recorre 240 km con 20 litros de gasolina. ¿Cuántos litros necesita para recorrer 360 km, manteniendo el mismo rendimiento?",
+    "opciones": {
+      "A": "24 litros",
+      "B": "28 litros",
+      "C": "30 litros",
+      "D": "32 litros"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "El rendimiento es 240 km / 20 L = 12 km por litro. Para 360 km: 360 / 12 = 30 litros."
+  },
+  {
+    "id": 12,
+    "tema": "Geometría - Ángulos",
+    "pregunta": "En un triángulo, dos de sus ángulos miden 55° y 65°. ¿Cuánto mide el tercer ángulo?",
+    "opciones": {
+      "A": "50°",
+      "B": "60°",
+      "C": "70°",
+      "D": "120°"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "La suma de los ángulos internos de un triángulo es 180°. 180 - 55 - 65 = 60°."
+  },
+  {
+    "id": 13,
+    "tema": "Estadística - Moda y mediana",
+    "pregunta": "Un grupo de estudiantes obtuvo las siguientes calificaciones en un examen: 2, 3, 3, 4, 4, 4, 5. ¿Cuál es la moda de este conjunto de datos?",
+    "opciones": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "La moda es el valor que más se repite. El número 4 aparece 3 veces, más que cualquier otro valor."
+  },
+  {
+    "id": 14,
+    "tema": "Aritmética - Unidades de medida",
+    "pregunta": "Un tanque de agua tiene una capacidad de 2.5 metros cúbicos. ¿A cuántos litros equivale esta capacidad? (1 m³ = 1000 litros)",
+    "opciones": {
+      "A": "25 litros",
+      "B": "250 litros",
+      "C": "2.500 litros",
+      "D": "25.000 litros"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "Se multiplica 2.5 x 1000 = 2.500 litros."
+  },
+  {
+    "id": 15,
+    "tema": "Álgebra - Funciones",
+    "pregunta": "Si f(x) = 2x² - 3, ¿cuál es el valor de f(4)?",
+    "opciones": {
+      "A": "5",
+      "B": "13",
+      "C": "29",
+      "D": "32"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "f(4) = 2(4)² - 3 = 2(16) - 3 = 32 - 3 = 29."
+  },
+  {
+    "id": 16,
+    "tema": "Geometría - Volumen",
+    "pregunta": "Una caja tiene forma de cubo con lados de 5 cm. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "15 cm³",
+      "B": "25 cm³",
+      "C": "100 cm³",
+      "D": "125 cm³"
+    },
+    "respuesta_correcta": "D",
+    "explicacion": "El volumen de un cubo es lado³: 5³ = 5 x 5 x 5 = 125 cm³."
+  },
+  {
+    "id": 17,
+    "tema": "Aritmética - Interés simple",
+    "pregunta": "Se invierten $500.000 a una tasa de interés simple del 4% anual. ¿Cuánto interés se genera después de 2 años?",
+    "opciones": {
+      "A": "$20.000",
+      "B": "$40.000",
+      "C": "$80.000",
+      "D": "$100.000"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "Interés simple = Capital x tasa x tiempo = 500.000 x 0.04 x 2 = 40.000."
+  },
+  {
+    "id": 18,
+    "tema": "Estadística - Interpretación de datos",
+    "pregunta": "En una encuesta a 200 estudiantes sobre su materia favorita, 80 eligieron Matemáticas. ¿Qué porcentaje de los estudiantes eligió Matemáticas?",
+    "opciones": {
+      "A": "20%",
+      "B": "40%",
+      "C": "60%",
+      "D": "80%"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "Se divide 80 entre 200 y se multiplica por 100: (80/200) x 100 = 40%."
+  },
+  {
+    "id": 19,
+    "tema": "Geometría - Semejanza de triángulos",
+    "pregunta": "Dos triángulos son semejantes. El lado más corto del primero mide 4 cm y su equivalente en el segundo mide 12 cm. Si otro lado del primer triángulo mide 6 cm, ¿cuánto mide su equivalente en el segundo triángulo?",
+    "opciones": {
+      "A": "8 cm",
+      "B": "10 cm",
+      "C": "18 cm",
+      "D": "24 cm"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "La razón de semejanza es 12/4 = 3. Entonces el lado equivalente es 6 x 3 = 18 cm."
+  },
+  {
+    "id": 20,
+    "tema": "Álgebra - Ecuaciones cuadráticas",
+    "pregunta": "¿Cuáles son las soluciones de la ecuación x² - 9 = 0?",
+    "opciones": {
+      "A": "x = 3 solamente",
+      "B": "x = -3 solamente",
+      "C": "x = 3 y x = -3",
+      "D": "x = 9 y x = -9"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "x² = 9, entonces x = ±√9 = ±3. Las dos soluciones son x = 3 y x = -3."
+  }
+]
