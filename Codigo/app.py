@@ -113,7 +113,7 @@ elif st.session_state.subject == "HISTORIAL":
         st.info("No hay historial de resultados todavia.")
 
     if st.button("Volver"):
-        reiniciar_todo()
+        st.session_state.subject = ""   # solo borra subject
         st.rerun()
 
 #materia no disponible
