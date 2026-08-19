@@ -25,9 +25,9 @@ def main():
     #dar unas instruciiones al usuario
     print("Bienvenido al examen de matematicas, por favor responde las preguntas con la letra de la respuesta correcta(a,b,c,d).")
     #seleccionar la materia
-    subject = input("Seleciona la materia(solo matematicas disponible): ").upper()
+    subject = input("Seleciona la materia(solo matematicas disponible), escribe historial para poder ver tus datos: ").upper()
     #selecionar el archivo json de matematicas
-    if subject == "MATEMATICAS":
+    if subject == "MATEMATICAS" or subject == "MATEMÁTICAS":
         #saca el archivo json de matematicas
         with open(ruta_json, encoding='utf-8') as f:
             data = json.load(f)
@@ -69,7 +69,15 @@ def main():
                 with open('resultados.json', 'w', encoding='utf-8') as f:
                     json.dump(resultados, f, ensure_ascii=False, indent=4)
                 #guardar el resultado en un archivo json
-                
+    elif subject == "HISTORIAL":
+        try:
+            with open('resultados.json', 'r', encoding='utf-8') as f:
+                resultados = json.load(f)
+                print("Historial de resultados:")
+                for resultado in resultados:
+                    print(f"Nombre: {resultado['nombre']}, Materia: {resultado['materia']}, Correctas: {resultado['correctas']}, Total: {resultado['total']}, Fecha: {resultado['fecha']}")
+        except FileNotFoundError:
+            print("No hay historial de resultados.")       
     else:
         print("Materia no disponible, por favor selecciona matematicas.")
     
