@@ -117,7 +117,7 @@ elif st.session_state.subject == "HISTORIAL":
         st.rerun()
 
 #materia no disponible
-elif st.session_state.subject != "MATEMATICAS" or st.session_state.subject != "MATEMATICAS ":
+elif st.session_state.subject != "MATEMATICAS":
     st.error("Materia no disponible, por favor selecciona matematicas.")
     if st.button("Volver a intentar"):
         st.session_state.subject = ""
